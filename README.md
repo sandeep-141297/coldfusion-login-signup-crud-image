@@ -79,11 +79,12 @@ A complete ColdFusion (CFML) web application featuring secure login/signup, full
 
 ```sql
 CREATE TABLE persons (
-  id INT PRIMARY KEY AUTO_INCREMENT,
+  id INT IDENTITY(1,1) PRIMARY KEY,
   name VARCHAR(100),
   email VARCHAR(100) UNIQUE,
   password VARCHAR(255),
-  profile_image VARCHAR(255)
+  profile_image VARCHAR(255),
+  created_at DATETIME DEFAULT GETDATE()
 );
 ````
 

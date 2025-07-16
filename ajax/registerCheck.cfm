@@ -23,7 +23,18 @@
             strict = true
         );
 
-        imageName = uploadedImage.serverFile; // get uploaded filename
+        // Extract original file name and extension
+        originalName = uploadedImage.clientFile; // e.g., "photo.jpg"
+        baseName = listFirst(originalName, "."); // "photo"
+        ext = listLast(originalName, ".");       // "jpg"
+
+        // Append random number to base name
+        randomSuffix = randRange(10000, 99999); // e.g., 5-digit random
+        imageName = baseName & "_" & randomSuffix & "." & ext; // "photo_87236.jpg"
+
+        // Rename uploaded file to new image name
+        fileMove(uploadPath & uploadedImage.serverFile, uploadPath & imageName);
+        //imageName = uploadedImage.serverFile; // get uploaded filename
 
         // Validate image size (max 2MB)
         if (uploadedImage.filesize > 2097152) {
