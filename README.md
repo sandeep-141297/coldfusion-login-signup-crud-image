@@ -43,9 +43,11 @@ A complete ColdFusion (CFML) web application featuring secure login/signup, full
 
 ---
 
+```
+
 ## 📁 Folder Structure
 
-```
+
 
 /coldfusion-login-signup-crud-image
 ├── includes/             # Header, footer templates
@@ -60,7 +62,8 @@ A complete ColdFusion (CFML) web application featuring secure login/signup, full
 ├── profile.cfm           # Profile page (update logic)
 ├── logout.cfm            # Session destroy
 
-````
+```
+```
 
 ---
 
