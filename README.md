@@ -63,8 +63,6 @@ A complete ColdFusion (CFML) web application featuring secure login/signup, full
 ├── logout.cfm            # Session destroy
 ```
 
-```
-```
 
 ---
 
