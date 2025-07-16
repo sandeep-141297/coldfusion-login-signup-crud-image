@@ -1,5 +1,5 @@
 <cfscript>
-    utils = new "userApp.cfc.Utils"();  
+    utils = new "coldfusion-login-signup-crud-image.cfc.Utils"();  
 
     name = trim(form.name ?: "");
     email = trim(form.email ?: "");

@@ -3,7 +3,7 @@
 
 <!-- Fixed Bottom Footer -->
 <footer class="footer bg-dark text-white text-center py-2 fixed-bottom">
-    &copy; #year(now())# UserApp. All rights reserved.
+    &copy; #year(now())# coldfusion-login-signup-crud-image. All rights reserved.
 </footer>
 
 <!-- Bootstrap JS -->

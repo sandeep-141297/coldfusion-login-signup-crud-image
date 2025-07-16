@@ -1,7 +1,7 @@
 <cfsetting showdebugoutput="false">
 <cfcontent type="text/html">
 <cfscript>
-    utils = new "userApp.cfc.Utils"();
+    utils = new "coldfusion-login-signup-crud-image.cfc.Utils"();
 
     email = trim(form.email ?: "");
     password = trim(form.password ?: "");

@@ -1,6 +1,6 @@
 component output="false" {
 
-    this.name = "UserApp";
+    this.name = "coldfusion-login-signup-crud-image";
     this.sessionManagement = true;
     this.sessionTimeout = createTimeSpan(0,1,0,0);
     //this.datasource = "localDB"; 

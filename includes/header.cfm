@@ -9,7 +9,7 @@
     <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.cfm">UserApp</a>
+            <a class="navbar-brand" href="index.cfm">coldfusion-login-signup-crud-image</a>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ms-auto">
                     <cfif NOT structKeyExists(session, "loggedIn") OR NOT session.loggedIn>
